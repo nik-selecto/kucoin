@@ -1,3 +1,6 @@
 [submodule "libs/api"]
 	path = libs/api
 	url = git@github.com:nik-selecto/kucoin_lib-api.git
+[submodule "apps/order-book"]
+	path = apps/order-book
+	url = git@github.com:nik-selecto/kucoin_app-order-book.git
