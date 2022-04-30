@@ -1,0 +1,31 @@
+{
+  "$schema": "https://json.schemastore.org/nest-cli",
+  "collection": "@nestjs/schematics",
+  "sourceRoot": "apps/kucoin/src",
+  "monorepo": true,
+  "root": "apps/kucoin",
+  "compilerOptions": {
+    "webpack": true,
+    "tsConfigPath": "apps/kucoin/tsconfig.app.json"
+  },
+  "projects": {
+    "kucoin": {
+      "type": "application",
+      "root": "apps/kucoin",
+      "entryFile": "main",
+      "sourceRoot": "apps/kucoin/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/kucoin/tsconfig.app.json"
+      }
+    },
+    "order-book": {
+      "type": "application",
+      "root": "apps/order-book",
+      "entryFile": "main",
+      "sourceRoot": "apps/order-book/src",
+      "compilerOptions": {
+        "tsConfigPath": "apps/order-book/tsconfig.app.json"
+      }
+    }
+  }
+}
