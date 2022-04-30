@@ -23,6 +23,12 @@
       ],
       "api/api/*": [
         "libs/api/src/*"
+      ],
+      "config/config": [
+        "libs/config/src"
+      ],
+      "config/config/*": [
+        "libs/config/src/*"
       ]
     }
   }
